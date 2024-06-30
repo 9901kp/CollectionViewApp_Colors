@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2AF06D40-530F-47A2-A6C1-CBC14C6B4D87"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "818DB708-7BA6-497B-9BE4-279CDCC8B335"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CollectionView App/CameraViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "CameraViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "818DB708-7BA6-497B-9BE4-279CDCC8B335 - 27bc239a176381da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CollectionView_App.CameraViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CollectionView_App.CameraViewController"
+                  moduleName = "CollectionView App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zheneessovay/Desktop/iOSCourse/Exercises/CollectionView%20App/CollectionView%20App/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "818DB708-7BA6-497B-9BE4-279CDCC8B335 - 3177401f148edbbd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CollectionView_App.CameraViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CollectionView_App.CameraViewController"
+                  moduleName = "CollectionView App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zheneessovay/Desktop/iOSCourse/Exercises/CollectionView%20App/CollectionView%20App/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "818DB708-7BA6-497B-9BE4-279CDCC8B335 - 8a2195aa3db5e228"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CollectionView_App.CameraViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CollectionView_App.CameraViewController&gt;"
+                  moduleName = "CollectionView App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zheneessovay/Desktop/iOSCourse/Exercises/CollectionView%20App/CollectionView%20App/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "818DB708-7BA6-497B-9BE4-279CDCC8B335 - aca3f16c601fd873"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CollectionView_App.CameraViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CollectionView_App.CameraViewController&gt;"
+                  moduleName = "CollectionView App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zheneessovay/Desktop/iOSCourse/Exercises/CollectionView%20App/CollectionView%20App/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "818DB708-7BA6-497B-9BE4-279CDCC8B335 - 9e34c5ae6bde9ed2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CollectionView_App.CameraViewController.__deallocating_deinit"
+                  moduleName = "CollectionView App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zheneessovay/Desktop/iOSCourse/Exercises/CollectionView%20App/CollectionView%20App/CameraViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3926FB1D-8F07-4675-9338-8FD06A0D1B30"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CollectionView App/CameraViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E7497D3-6D8A-4A64-9226-D3ABA45060C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CollectionView App/CameraViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "camera-photo-icon-black-color-illustration-image-flat-style-vector.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "camera-photo-icon-black-color-illustration-image-flat-style-vector@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "camera-photo-icon-black-color-illustration-image-flat-style-vector@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

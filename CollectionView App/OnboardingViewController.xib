@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OnboardingViewController" customModule="CollectionView_App" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="Wyl-8o-HMR" id="Es0-8j-Am6"/>
+                <outlet property="pageControl" destination="rdr-o7-6Mt" id="DgE-S1-6QT"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="rdr-o7-6Mt">
+                    <rect key="frame" x="0.0" y="772" width="393" height="26"/>
+                    <color key="pageIndicatorTintColor" white="0.32000000000000001" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="currentPageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </pageControl>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Wyl-8o-HMR">
+                    <rect key="frame" x="0.0" y="59" width="393" height="713"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="crS-aD-KF3">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKq-ms-kPk">
+                    <rect key="frame" x="138" y="737" width="118" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Пропустить"/>
+                    <connections>
+                        <action selector="skipButtonPressed:" destination="-1" eventType="touchUpInside" id="D9g-PA-fAd"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rdr-o7-6Mt" secondAttribute="trailing" id="5UU-d8-rDS"/>
+                <constraint firstItem="Wyl-8o-HMR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="aet-Mb-9Sb"/>
+                <constraint firstItem="rdr-o7-6Mt" firstAttribute="top" secondItem="Wyl-8o-HMR" secondAttribute="bottom" id="afS-G4-9Ch"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Wyl-8o-HMR" secondAttribute="trailing" id="bQh-a2-rOU"/>
+                <constraint firstItem="Wyl-8o-HMR" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="ppu-hD-SCx"/>
+                <constraint firstItem="rdr-o7-6Mt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="q03-sk-fbi"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="rdr-o7-6Mt" secondAttribute="bottom" constant="20" id="qOn-3L-qKQ"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
